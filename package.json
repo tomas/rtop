@@ -1,6 +1,6 @@
 {
   "name": "rtop",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "top for multiple, remote hosts. Forked from vtop.",
   "main": "lib/rtop.js",
   "preferGlobal": true,
