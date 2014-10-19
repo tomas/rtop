@@ -22,12 +22,8 @@
   "readmeFilename": "README.md",
   "dependencies": {
     "blessed": "0.0.37",
-    "commander": "2.2.0",
     "drawille": "0.1.1",
-    "glob": "4.0.4",
-    "os-utils": "0.0.14",
-    "read": "1.0.5",
-    "ssh2": "^0.3.6",
-    "sudo": "1.0.3"
+    "minimist": "^1.1.0",
+    "ssh2": "^0.3.6"
   }
 }

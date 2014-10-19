@@ -4,11 +4,18 @@
 ':' //; exec "$(command -v nodejs || command -v node)" "$0" "$@"
 
 var rtop  = require('../lib/rtop'),
-    hosts = process.argv.slice(2);
+    args  = require('minimist')(process.argv.slice(2)),
+    hosts = args['_'];
 
 if (!hosts || hosts.length == 0) {
-  console.log('Usage: rtop [hosta hostb hostc]');
+  console.log('Usage: rtop [options] [list of hosts]\n');
+  console.log('Options:\n   -p [port]\n   -k [path/to/private_key]\n')
+  console.log('Example: rtop -p 24 host1 host2 host3');
 } else {
-  rtop.start(hosts);  
+  var opts = {
+    port     : args.p,
+    key_path : args.k
+  }
+  rtop.start(hosts, opts);  
 }
 
