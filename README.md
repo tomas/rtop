@@ -5,6 +5,8 @@ A light version of top for monitoring multiple servers in parallel.
 
 Forked and heavily based on the cool [vtop](https://github.com/MrRio/vtop) project.
 
+![](https://raw.githubusercontent.com/tomas/rtop/master/screenshot.png)
+
 ## Running
 
     rtop a.domain.com b.domain.com
