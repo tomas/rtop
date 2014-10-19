@@ -9,10 +9,12 @@ var rtop  = require('../lib/rtop'),
 
 if (!hosts || hosts.length == 0) {
   console.log('Usage: rtop [options] [list of hosts]\n');
-  console.log('Options:\n   -p [port]\n   -k [path/to/private_key]\n')
-  console.log('Example: rtop -p 24 host1 host2 host3');
+  console.log('Options:\n  -u [user]\n  -p [port]\n  -k [path/to/private.key]\n')
+  console.log('Examples:\n  rtop -u user -p 24 host1 host2 host3');
+  console.log('  rtop user@host1:21 deploy@host2:23 host3\n');
 } else {
   var opts = {
+    user     : args.u,
     port     : args.p,
     key_path : args.k
   }
