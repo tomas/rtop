@@ -9,7 +9,7 @@ Forked and heavily based on the cool [vtop](https://github.com/MrRio/vtop) proje
 
 ## Running
 
-    rtop a.domain.com b.domain.com
+    rtop host1 host2 host3
     
 ## Options
 
@@ -19,7 +19,7 @@ Forked and heavily based on the cool [vtop](https://github.com/MrRio/vtop) proje
 
 For example, to log in using a specific user and port:
 
-    rtop -u user -p 24 host1 host2 host3
+    rtop -u user -p 24 a.domain.com b.domain.com c.domain.com
 
 You can also pass hosts in the regular user@host:port notation:
 
