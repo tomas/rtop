@@ -21,9 +21,9 @@
   "license": "MIT",
   "readmeFilename": "README.md",
   "dependencies": {
-    "blessed": "0.0.37",
+    "blessed": "0.0.51",
     "drawille": "0.1.1",
     "minimist": "^1.1.0",
-    "ssh2": "^0.4.4"
+    "ssh2": "^0.4.13"
   }
 }
