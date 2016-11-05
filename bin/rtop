@@ -18,6 +18,6 @@ if (!hosts || hosts.length == 0) {
     port     : args.p,
     key_path : args.k
   }
-  rtop.start(hosts, opts);  
+  rtop.start(hosts, opts);
 }
 
