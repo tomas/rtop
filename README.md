@@ -60,4 +60,4 @@ Of course. Fork, commit, create a pull request, you know the drill. Feature addi
 
 ## Copyright
 
-(c) 2014 Fork, Ltd. MIT Licensed.
+(c) Fork, Ltd. MIT Licensed.
