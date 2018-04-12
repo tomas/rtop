@@ -56,7 +56,7 @@ The same global vs local options apply as described above.
 
 ## Contributing
 
-Of course. Fork, commit, create a pull request, you know. Feature additions are most welcome.
+Of course. Fork, commit, create a pull request, you know the drill. Feature additions get a free cookie.
 
 ## Copyright
 
