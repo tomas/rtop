@@ -5,6 +5,8 @@ A light version of top for monitoring multiple servers in parallel.
 
 Forked and heavily based on the cool [vtop](https://github.com/MrRio/vtop) project.
 
+Bundled as part of [Lisa](https://github.com/tomas/lisa) (a deploy/management tool).
+
 ![](https://raw.githubusercontent.com/tomas/rtop/master/screenshot.jpg)
 
 ## Running
